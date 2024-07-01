@@ -1,0 +1,91 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282828;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.music-player {
+    background-color: #121212;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.library {
+    padding: 20px;
+}
+
+.library h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#track-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#track-list li {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+}
+
+#track-list li:hover {
+    background-color: #333;
+}
+
+.controls {
+    padding: 20px;
+    text-align: center;
+}
+
+#album-cover {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.track-info {
+    margin: 10px 0;
+}
+
+.audio-controls button,
+.playback-options button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.audio-controls button:hover,
+.playback-options button:hover {
+    background-color: #444;
+}
+
+.volume-control {
+    margin: 10px 0;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+#progress {
+    flex: 1;
+    margin: 0 10px;
+}

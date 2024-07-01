@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="music-player">
+        <div class="library">
+            <h2>Music Player</h2>
+            <ul id="track-list">
+                <!-- Tracks will be dynamically inserted here -->
+            </ul>
+        </div>
+        <div class="controls">
+            <img id="album-cover" src="" alt="Album Cover">
+            <div class="track-info">
+                <span id="track-title">Track Title</span> - <span id="artist-name">Artist</span>
+            </div>
+            <div class="audio-controls">
+                <button id="prev-btn">Previous</button>
+                <button id="play-pause-btn">Play</button>
+                <button id="next-btn">Next</button>
+            </div>
+            <div class="volume-control">
+                <label for="volume">Volume</label>
+                <input type="range" id="volume" min="0" max="1" step="0.01">
+            </div>
+            <div class="progress-bar">
+                <span id="current-time">0:00</span>
+                <input type="range" id="progress" value="0">
+                <span id="duration">0:00</span>
+            </div>
+            <div class="playback-options">
+                <button id="shuffle-btn">Shuffle</button>
+                <button id="repeat-btn">Repeat</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
