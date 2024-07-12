@@ -1,6 +1,6 @@
-## Pratik's ContentEditable Resume Builder - Second Internship Project
+## Pratik's Music Player - Second Internship Project
 
-This project is a web-based resume builder I created during my internship with Coding Raja. It allows users to listen to their favorite music tracks. The application features playlist management, a music library, audio controls, a progress bar, shuffle and repeat options, and a responsive design to ensure it works well on various screen sizes.
+This project is a Music Player I created during my internship with Coding Raja. It allows users to listen to their favorite music tracks. The application features playlist management, a music library, audio controls, a progress bar, shuffle and repeat options, and a responsive design to ensure it works well on various screen sizes.
 
 **Getting Started:**
 
