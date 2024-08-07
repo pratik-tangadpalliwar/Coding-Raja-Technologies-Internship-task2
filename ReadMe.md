@@ -37,12 +37,4 @@ This project is a Music Player I created during my internship with Coding Raja. 
 * Node.js: For creating a backend server.
 * Express.js: A web framework for Node.js used to serve static files and handle HTTP requests.
 
-**Note:**
-
-This is a basic implementation of a contenteditable resume builder. I may extend it further by adding features like:
-
-* Pre-defined resume templates
-* Section reordering
-* Adding Profile picture 
-
 I hope this project serves as a good starting point for my web development journey!
